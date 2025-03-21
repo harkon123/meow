@@ -46,7 +46,7 @@ def step_motor(steps, direction):
             time.sleep(0.005)
 
 while True:
-    servoD.duty(30)
+    servoD.duty(320)
     servoND.duty(77)
     set_leds(False)
     buzzer.duty(0)
